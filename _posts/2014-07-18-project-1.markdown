@@ -1,0 +1,15 @@
+---
+title: Bayesian Particle Tracking
+subtitle: Bayesian Statistics and Forward Modeling
+layout: default
+modal-id: 1
+date: 05-01-2016
+img: dreams.png
+thumbnail: dreams-thumbnail.png
+alt: image-alt
+project-date: May 2016
+client: Harvard
+category: Statistical Modeling
+description: I wrote a open-source python package as part of my final project for Physics 201 at Harvard. The package uses Markov chain Monte Carlo to estimate parameters for drifting microscopic particles.
+
+---
