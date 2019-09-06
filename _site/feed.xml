@@ -5,9 +5,22 @@
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
     <link>https://alanxzhou.github.io/alan-zhou/</link>
     <atom:link href="https://alanxzhou.github.io/alan-zhou/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 05 Sep 2019 01:28:34 -0400</pubDate>
-    <lastBuildDate>Thu, 05 Sep 2019 01:28:34 -0400</lastBuildDate>
+    <pubDate>Thu, 05 Sep 2019 22:39:59 -0400</pubDate>
+    <lastBuildDate>Thu, 05 Sep 2019 22:39:59 -0400</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Bayesian Particle Tracking</title>
+        <description>
+</description>
+        <pubDate>Tue, 05 Jan 2016 00:00:00 -0500</pubDate>
+        <link>https://alanxzhou.github.io/alan-zhou/statistical%20modeling/2016/01/05/project-1/</link>
+        <guid isPermaLink="true">https://alanxzhou.github.io/alan-zhou/statistical%20modeling/2016/01/05/project-1/</guid>
+        
+        
+        <category>Statistical Modeling</category>
+        
+      </item>
     
       <item>
         <title>Bayesian Particle Tracking</title>
