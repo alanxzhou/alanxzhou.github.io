@@ -1,5 +1,6 @@
-# theme: agency
-url: https://alanxzhou.github.io
+remote_theme: agency
+url: https://alan-zhou.com
+#url: https://alanxzhou.github.io
 baseurl: /alan-zhou
 
 # Site settings
@@ -62,4 +63,3 @@ address:
 # Build settings
 markdown: kramdown
 permalink: pretty
-remote_theme: agency
