@@ -1,55 +1,55 @@
-<!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">{{site.title}}</a>
-            </div>
+<header class="header">
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#portfolio">Projects</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#services">Skills</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
+	<div class="header__content">
 
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="intro-text">
-                <div class="intro-heading">Alan Zhou</div>
-                <div class="intro-lead-in">Data Science | Machine Learning | Forward Modeling</div>
-                <a href="#portfolio" class="page-scroll btn btn-xl">Tell Me More</a>
-            </div>
-        </div>
-    </header>
-<!--
-        {% for page in site.pages %}
-          {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
-        {% endfor %}
- -->
+		{% if site.data.settings.header_settings.logo_image %}
+		<a href="{{ site.baseurl }}/" class="header__logo">
+			<img src="{{ site.data.settings.header_settings.logo_image | relative_url }}" class="header__logo__img">
+		</a>
+		{% else %}
+		<a href="{{ site.baseurl }}/" class="header__title">
+			{{ site.data.settings.basic_settings.site_title }}
+		</a>
+		{% endif %}
 
+		<h1 class="header__tagline">{{ site.data.settings.basic_settings.site_tagline }}</h1>
+
+		<div class="menu">
+			<div class="menu__toggle js-menu-toggle">
+				<div class="menu__toggle__icon"><span></span></div>
+			</div>
+			<div class="menu__wrap">
+				<ul class="menu__list">
+					{% for item in site.data.settings.menu_settings.menu_items %}
+					<li class="menu__list__item">
+						<a href="{{ item.url | relative_url }}" class="menu__list__item__link">{{ item.title }}</a>
+					</li>
+					{% endfor %}
+				</ul>
+			</div>
+		</div>
+
+		<div class="projects-menu">
+			<ul class="menu__list">
+				{% for project in site.projects reversed %}
+				<li class="menu__list__item">
+					<a href="{{ project.url | relative_url }}" class="menu__list__item__link">{{ project.title }}</a>
+				</li>
+				{% endfor %}
+			</ul>
+		</div>
+
+		<div class="header__lower">
+
+			{% include socials.html %}
+
+			<div class="footer__copyright">
+				<span>© {{ 'now' | date: "%Y" }} {{ site.data.settings.basic_settings.site_title }}</span>
+				<a href="https://jekyllthemes.io" target="_blank">Jekyll Themes</a>
+			</div>
+
+		</div>
+
+	</div>
+
+</header>
