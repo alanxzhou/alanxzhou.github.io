@@ -1,7 +1,7 @@
-site: Index Jekyll Theme
-
 url: https://alan-zhou.com
-baseurl: /alan-zhou
+# baseurl: /alan-zhou
+
+site: Index Jekyll Theme
 
 collections:
   pages:
