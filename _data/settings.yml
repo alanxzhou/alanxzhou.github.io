@@ -1,6 +1,6 @@
 basic_settings:
   site_title: Alan Zhou
-  site_tagline: Data Science, Software Development
+  site_tagline: Data Science, Python
   favicon_image: /images/favicon.png
 
 header_settings:
