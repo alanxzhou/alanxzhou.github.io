@@ -9,6 +9,9 @@ featured_image: '/images/poetic/unsplash_poetry.jpg'
 ![](/images/poetic/art-lasovsky-unsplash_narrow.jpeg)
 
 # Poetic AI
+Poetic AI is a short project I did with Dawit Gebregziabher[^1] as part of Comp 119 (Big Data) during my Masters program at Tufts. The project is a natural language model that can write poetry given a short prompt.
+
+[^1]: link to Dawit's github or linkedin
 
 ## Acknowledgements
 Cover image by <a href="https://unsplash.com/@alvaroserrano?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Álvaro Serrano</a> on Unsplash
