@@ -13,13 +13,13 @@ Poetic AI is a short project I did with Dawit Gebregziabher[^1] as part of Comp 
 
 [^1]: link to Dawit's github or linkedin
 
-The model was created by fine tuning the GPT-2[^2] small and medium models on the Gutenberg Poetry Corpus[^3]. It required a lot of parameter tuning and failed poems to get results that look reasonable (see below).
+The model is created by fine tuning the GPT-2[^2] small and medium models on the Gutenberg Poetry Corpus[^3]. It requires a lot of parameter tuning and failed poems to get results that look reasonable (see below). In parameter tuning, we encountered a lot of the same problems that Deepmind encountered, namely that for temperature values that are too low, the model tends to repeat itself over and over agin. Also, the model doesn't know to stop generating words, so the output has to be cutoff at an arbitrary predefined length.
 
 [^2]: <a href="https://openai.com/blog/better-language-models/">https://openai.com/blog/better-language-models/</a>
 
 [^3]: <a href="https://github.com/aparrish/gutenberg-poetry-corpus">https://github.com/aparrish/gutenberg-poetry-corpus</a>
 
-Check out the colab notebook we ran our code in <a href="https://colab.research.google.com/drive/1KyOQga7G-NivE7QUPRnzGnBjsaLXy6LG">here</a>. Scroll down to check out some of the poetry we generated.
+Check out the colab notebook we ran our code in <a href="https://colab.research.google.com/drive/1KyOQga7G-NivE7QUPRnzGnBjsaLXy6LG">here</a>. Scroll down to check out some of the poetry we generated!
 
 ---
 ## Poetry samples
