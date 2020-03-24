@@ -8,7 +8,7 @@ featured_image: '/images/particle_tracking/real_particle.png'
 
 ![](/images/demo/demo-landscape.jpg)
 
-## Demo content
+## Bayesian Particle Tracking
 
 This page is a demo that shows everything you can do inside portfolio and blog posts.
 
