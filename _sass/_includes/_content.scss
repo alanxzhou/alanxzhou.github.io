@@ -28,7 +28,7 @@
 		}
 
 		@include mq(laptop) {
-			max-width: 65%;
+			max-width: 75%; // was 65
 		}
 	}
 	
@@ -78,7 +78,7 @@
 		}
 
 		@include mq(laptop) {
-			max-width: 65%;
+			max-width: 75%; // was 65
 		}
 	}
 
