@@ -9,3 +9,4 @@ featured_image: '/images/particle_tracking/real_particle.png'
 ![](/images/demo/demo-landscape.jpg)
 
 # Bayesian Particle Tracking
+Bayesian Particle Tracking was one of final projects of my undergraduate degree at Harvard. 
