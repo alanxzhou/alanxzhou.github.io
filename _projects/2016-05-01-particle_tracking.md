@@ -9,6 +9,8 @@ featured_image: '/images/demo/demo-square.jpg'
 ![](/images/demo/demo-landscape.jpg)
 
 # Bayesian Particle Tracking
-Bayesian Particle Tracking was one of final projects of my undergraduate degree at Harvard. It is a Python package that calculates the diffusion coefficient for a diffusion process in 3D particle tracking given a trajectory and the uncertainty on the measurments in that trajectory. The pacakge uses Bayesian statistics, in particular Markov Chain Monte Carlo (MCMC) and Maximum Likelihood Estimation (MLE) to estimate the diffusion coefficient.
+Bayesian Particle Tracking was one of final projects for my undergraduate degree at Harvard. It is a Python package that calculates the diffusion coefficient for a diffusion process in 3D particle tracking, given a trajectory and the uncertainty on the measurments in that trajectory. The pacakge uses Bayesian statistics, in particular Markov Chain Monte Carlo (MCMC) and Maximum Likelihood Estimation (MLE) to estimate the diffusion coefficient.
 
-At the time of this project, there did not exist a standard accepted procedure for calculating the diffusion coefficient. Methods were ad hoc and had major room for improvement.
+At the time of this project, there did not exist a standard accepted procedure for calculating the diffusion coefficient. Methods were ad hoc and had major room for improvement. This package attempts to resolve those issues with well established Bayesian statistical methods.
+
+Check out the the Bayesian Particle Tracking github page <a href="https://github.com/alanxzhou/Bayesian-Particle-Tracking">here</a>.
