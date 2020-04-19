@@ -9,6 +9,8 @@ featured_image: /images/demo/demo-landscape.jpg
 
 # About Me
 
+Hi there! 
+
 This website is a work in progress so things may look different the next time you check in here!
 
 * B.A. in Physics, Harvard College 2016
