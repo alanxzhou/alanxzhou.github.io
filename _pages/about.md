@@ -9,7 +9,7 @@ featured_image: /images/demo/demo-landscape.jpg
 
 # About Me
 
-Hi there! 
+Hey there! 
 
 This website is a work in progress so things may look different the next time you check in here!
 
