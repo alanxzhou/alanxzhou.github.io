@@ -9,7 +9,7 @@ featured_image: /images/demo/demo-landscape.jpg
 
 # About Me
 
-Hey there! 
+Hey there! My name is Alan and I do data science and software development in Python.
 
 This website is a work in progress so things may look different the next time you check in here!
 
