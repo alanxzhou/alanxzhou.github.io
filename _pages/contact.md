@@ -7,4 +7,4 @@ featured_image: /images/demo/demo-landscape.jpg
 
 {% include contact-form.html %}
 
-Fill out the form above and I'll try to respond as quickly as I can!
+Fill out the form above and I'll try to respond as quickly as I can
