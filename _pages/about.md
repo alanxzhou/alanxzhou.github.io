@@ -11,7 +11,9 @@ Welcome to my webpage! To navigate, just select one of the options on the sideba
 
 ## Employment History
 
-I currently work as member of technical staff at Draper in Cambridge, MA where I've been since 2016. There, I work on building software tools in Python for data analysis. Sometimes this involves writing packages for machine learning, and other times it involves building applications for data visualization. 
+I currently work as a data scientist at Dexai in Somerville, MA. I am member of the learning team and am currently working on deploying machine learning algorithms for robots.
+
+From August 2016 to July 2020 I worked as a member of technical staff at Draper Laboratory in Cambridge, MA. There, I worked on building software tools in Python for data analysis. Sometimes this involved writing packages for machine learning, and other times it involves building applications for data visualization. 
 
 ## Education History
 
